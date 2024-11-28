@@ -50,7 +50,7 @@
     async function redirectToPayment(countryCode) {
         if (countryCode) {
             if (['CI', 'SN', 'BJ', 'ML', 'TG', 'NE', 'BF', 'CM', 'CD', 'CG', 'GA', 'KE', 'MW', 'RW', 'TZ', 'ZM'].includes(countryCode)) {
-                window.location.href = "https://me.lygosapp.com/mNFzXJfm";
+                window.location.href = "https://me.fedapay.com/formationmaster";
             } else {
                 window.location.href = 'https://motivation-master-class.systeme.io/paiement';
             }
